@@ -79,3 +79,21 @@
 })(jQuery);
 
 //new tab
+
+const covid = document.querySelector("#corona")
+covid.addEventListener("click", onclick)
+function onclick(){
+    window.open("https://github.com/Raghul1995/COVID",'_blank');
+    return true;
+}
+/*
+document.querySelector("#corona").onClick = function(){
+    window.open("https://github.com/Raghul1995/COVID",'_blank');
+    return true;
+ }*/
+/*
+
+
+ document.getElementById("url").textContent = document.URL;
+ document.URL = "https://github.com/Raghul1995/COVID"
+ */
